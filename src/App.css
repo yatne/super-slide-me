@@ -18,9 +18,10 @@
   position: absolute;
   top: 5vh;
   left: 5vh;
-  height: 10vh;
-  width: 10vh;
-  background-color: white;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
 }
 
 .menu {

@@ -11,7 +11,7 @@ const GamePage = (props: Props) => {
   console.log(props)
   return (
     <>
-      <Link to="/"><div className="backArrow">Back</div></Link>
+      <Link to="/"><div className="backArrow">← Back</div></Link>
       <div className="gameContainer">
         <SuperSlideMe
           id={props.id}
