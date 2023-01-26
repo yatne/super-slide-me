@@ -8,10 +8,7 @@
   justify-content: center;
   color: white;
   height: 100vh;
-}
-
-.gameContainer {
-  max-height: 180vh;
+  overflow: hidden;
 }
 
 .backArrow {
@@ -57,4 +54,39 @@
 
 .smallMenuButton {
   font-size: large;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+.previousButton {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+
+.nextButton {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.navButton {
+  padding: 10px 30px;
+  margin: 10px 0;
+  min-width: 130px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 2px solid black;
+}
+.navButton:hover {
+  border: 2px solid grey;
+}
+.navButton:active {
+  border: 2px solid lightgray;
 }
