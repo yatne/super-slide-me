@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './../logo.png'
 
 const MenuPage = () => {
   return (
     <div className="gameContainer">
       <div className="menu">
-        <img src="/logo.png" className="logo" />
+        <img src={logo} className="logo" />
         <Link to="/game"><button className="menuButton" style={{fontWeight: 'bold'}}>Play</button></Link>
         <Link to="/baby"><button className="menuButton">
           <span style={{color: 'red'}}>B</span>
