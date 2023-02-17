@@ -105,3 +105,15 @@
   display: flex;
   flex-direction: column;
 }
+
+.about-page {
+  max-width: 600px;
+}
+
+.about-page p {
+  font-size: 1.5rem;
+}
+
+.about-page p a {
+  color: white;
+}

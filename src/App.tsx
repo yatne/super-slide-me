@@ -6,6 +6,7 @@ import GamePage from './pages/GamePage';
 import MenuPage from './pages/MenuPage';
 import {babyLevels} from './pages/levels/babyLevels';
 import BlocksPage from './pages/blocksPage/BlocksPage';
+import AboutPage from './pages/about/AboutPage';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/blocks',
     element: <BlocksPage />
+  },
+  {
+    path: '/about',
+    element: <AboutPage />
   }
 ]);
 
