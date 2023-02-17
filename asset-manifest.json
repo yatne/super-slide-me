@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/super-slide-me/static/css/main.714f16ab.css",
+    "main.js": "/super-slide-me/static/js/main.a5118b08.js",
+    "static/js/787.f42cec17.chunk.js": "/super-slide-me/static/js/787.f42cec17.chunk.js",
+    "index.html": "/super-slide-me/index.html",
+    "main.714f16ab.css.map": "/super-slide-me/static/css/main.714f16ab.css.map",
+    "main.a5118b08.js.map": "/super-slide-me/static/js/main.a5118b08.js.map",
+    "787.f42cec17.chunk.js.map": "/super-slide-me/static/js/787.f42cec17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.714f16ab.css",
+    "static/js/main.a5118b08.js"
+  ]
+}
