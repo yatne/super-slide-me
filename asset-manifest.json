@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/super-slide-me/static/css/main.714f16ab.css",
-    "main.js": "/super-slide-me/static/js/main.5b41003b.js",
+    "main.js": "/super-slide-me/static/js/main.cbbbe790.js",
     "static/js/787.f42cec17.chunk.js": "/super-slide-me/static/js/787.f42cec17.chunk.js",
     "static/media/logo.png": "/super-slide-me/static/media/logo.5ff6714904e45c8a19fe.png",
     "index.html": "/super-slide-me/index.html",
     "main.714f16ab.css.map": "/super-slide-me/static/css/main.714f16ab.css.map",
-    "main.5b41003b.js.map": "/super-slide-me/static/js/main.5b41003b.js.map",
+    "main.cbbbe790.js.map": "/super-slide-me/static/js/main.cbbbe790.js.map",
     "787.f42cec17.chunk.js.map": "/super-slide-me/static/js/787.f42cec17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.714f16ab.css",
-    "static/js/main.5b41003b.js"
+    "static/js/main.cbbbe790.js"
   ]
 }
