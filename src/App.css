@@ -63,22 +63,23 @@
 
 .previousButton {
   display: block;
-  position: absolute;
-  left: 20px;
-  top: 50%;
+  /*position: absolute;*/
+/*  left: 20px;*/
+/*  top: 50%;*/
 }
 
 .nextButton {
   display: block;
-  position: absolute;
-  right: 20px;
-  top: 50%;
+  /*position: absolute;*/
+  /*right: 20px;*/
+  /*top: 50%;*/
 }
 
 .navButton {
   padding: 10px 30px;
-  margin: 10px 0;
-  min-width: 130px;
+  margin: 10px;
+  min-width: 100px;
+  width: 130px;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: none;
@@ -89,4 +90,18 @@
 }
 .navButton:active {
   border: 2px solid lightgray;
+}
+
+.blockGame {
+  max-width: 480px;
+}
+
+.blocksDescriptionApp {
+  display: flex;
+  align-items: center;
+}
+
+.blocksDescriptionGame {
+  display: flex;
+  flex-direction: column;
 }
