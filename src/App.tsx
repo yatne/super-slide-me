@@ -1,5 +1,5 @@
 import React from 'react';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 import './App.css';
 import GamePage from './pages/GamePage';
@@ -8,7 +8,7 @@ import {babyLevels} from './pages/levels/babyLevels';
 import BlocksPage from './pages/blocksPage/BlocksPage';
 import AboutPage from './pages/about/AboutPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <MenuPage />,
